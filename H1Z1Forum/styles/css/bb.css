@@ -1,0 +1,86 @@
+
+#image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#text {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 350px;
+}
+
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+
+
+body {
+    background-image: url("../pictures/bb.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+bodytopic {
+    background-image: url("../pictures/h1z1-screenshot-011-1050x586-1024x571.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.container {
+    background-color: black;
+    width: 900px;
+    height: 200vh;
+    margin: 20px auto;
+}
+
+.forum {
+    box-shadow: 10px 10px 10px white;
+    width: 900px;
+    height: 200vh;
+    margin: 20px auto;
+
+}
+
+.login {
+    width: 900px;
+    height: 200vh;
+    margin: 20px auto;
+}
+
+.topic {
+    background-color: white;
+    height: 10vh;
+    width: 800px;
+    margin: auto;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+
+
